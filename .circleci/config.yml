@@ -30,14 +30,14 @@ jobs:
           name: Build Backend
           command: |
             npm run backend:build
+      # - run:
+          # name: Deploy Frontend
+          # command: |
+            # npm run frontend:deploy
       - run:
-          name: Deploy Frontend
+          name: Deploy App
           command: |
-            npm run frontend:deploy
-      - run:
-          name: Deploy Back-End
-          command: |
-            npm run backend:deploy
+            npm run deploy
 
 workflows:
   deployment:
