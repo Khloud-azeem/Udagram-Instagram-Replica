@@ -7,7 +7,7 @@ deploy:
 global:
   application_name: udagram-api
   branch: null
-  default_ec2_keyname: null
+  default_ec2_keyname: aws-eb
   default_platform: Node.js 16
   default_region: us-east-1
   include_git_submodules: true
