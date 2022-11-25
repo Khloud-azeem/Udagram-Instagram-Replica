@@ -22,7 +22,7 @@ The application server uses AWS RDS Postgres as a database for storing and retri
 The frontend application is deployed using AWS S3 Bucket. The bundled assets are uploaded to an S3 bucket and that
 the bucket is made publicly readable.
 
-- S3 Endpoint - Frontend: <http://udagram-yasser.s3-website.us-east-2.amazonaws.com/>
+- S3 Endpoint - Frontend: <http://khloud-udagram.s3-website.us-east-2.amazonaws.com/>
 
 End-users can access the application from the Bucket URL.
 
@@ -31,7 +31,7 @@ End-users can access the application from the Bucket URL.
 The application server is deployed on the AWS Elastic Beanstalk service. The application is built, archived, and uploaded
 to and S3 bucket from where Elastic Beanstalk extracts and runs the application on an endpoint.
 
-- Elastic Beanstalk URL - Backend: <http://udagram-api-dev.eba-ffphfaew.us-east-2.elasticbeanstalk.com/>
+- Elastic Beanstalk URL - Backend: <http://udagram-api-dev.eba-xpxztrgi.us-east-1.elasticbeanstalk.com/>
 
 # Environment Variables
 
