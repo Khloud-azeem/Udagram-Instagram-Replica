@@ -1,4 +1,4 @@
-eb init udagram-api -r $AWS_DEFAULT_REGION -p node.js
+eb init udagram-api -r $AWS_DEFAULT_REGION -p Node.js 16 running on 64bit Amazon Linux 2
 eb use udagram-api-dev
 eb deploy udagram-api-dev
 
